@@ -35,6 +35,9 @@ class ProductItem extends StatelessWidget {
               width: 60,
               height: 60,
               fit: BoxFit.cover,
+              errorBuilder: (context, error, stackTrace) {
+                return const Icon(Icons.image_not_supported, size: 40, color: Colors.grey);
+              },
             ),
           ),
           title: Text(product.name),

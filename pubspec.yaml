@@ -38,6 +38,10 @@ dependencies:
   intl_phone_number_input: ^0.7.4
   shared_preferences: ^2.2.2
   image_picker: ^1.2.0
+  sensors_plus: ^3.0.0
+  flutter_speech: ^2.0.0
+
+
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +70,14 @@ flutter:
     - assets/pulsera.png
     - assets/sombrero-wayuu.jpg
     - assets/mochila.jpg
+    - assets/aretes.png
+    - assets/camisa.png
+    - assets/ruana.png
+    - assets/cartera.png
+    - assets/collar.png
+    - assets/tapabocas.png
+    - assets/poncho.png
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
